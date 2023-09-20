@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <title>Spotify Stats</title>
+</head>
+<body>
+    <header>
+        <h1>SPOTIFY STATS</h1>
+    </header>
+    <main>
+        <h2>Titres les plus écoutés :</h2>
+        <h3>Afficher vos
+            <input type="number" id="nbTrack" min="0" max="50">
+            titres Spotify les plus écoutés depuis
+            <select name="temps" id="timeAgo">
+                <option value="short_term">4 semaines</option>
+                <option value="medium_term">6 mois</option>
+                <!-- <option value="1an">1 an</option> -->
+                <option value="long_term">toujours</option>
+            </select>
+            <br><br>
+            <button id="bouttonValider">Valider !</button>
+        </h3>
+        <h3 class="topTitres" style="display: none;">
+            Voilà vos titres les plus écoutés :
+        </h3>
+        <h3 class="listTopTitres"></h3>
+    </main>
+    <footer>
+        <h4>2023 &copy; - Swann Gillé - <a href="https://github.com/Swaannnn/spotify-stats">GitHub</a></h4>
+    </footer>
+
+    
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+* {
+    text-decoration: none;
+}
+
+a {
+    color: blue;
+}
+
+header {
+    display: flex;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#bouttonValider {
+    height: auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+}
