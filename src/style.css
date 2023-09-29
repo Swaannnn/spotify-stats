@@ -1,0 +1,83 @@
+/* * * * * TOUTES LES PAGES * * * * */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+}
+
+a {
+    color: blue;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 1vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+}
+
+.bouton {
+    border: 1px black solid;
+    border-radius: 6px;
+    padding: 5px 20px;
+    color: black;
+    background-color: #1ed760;
+    cursor: pointer;
+}
+
+.bouton:hover {
+    border: 1px #1ed760 solid;
+}
+
+.bouton:active {
+    border: 1px black solid;
+}
+
+/* * * * * PAGE D'ACCUEIL * * * * */
+
+.accueil {
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* * * * * PAGE TOP TITRES * * * * */
+
+#boutonValider {
+    height: auto;
+}
+
+
+.resultat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vw;
+}
+
+.container1 {
+    color: #1ed760;
+    margin-right: 2vw;
+    -webkit-text-stroke: 1px #178d40;
+}
+
+.container2 {
+    margin-right: 1vw;
+}
+
+#cover {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    transform: translateY(-7px);
+}
